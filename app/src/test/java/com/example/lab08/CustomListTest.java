@@ -14,7 +14,8 @@ public class CustomListTest
 		assertTrue(list.hasCity(c));
 	}
 
-	@Test public void testDelete()
+	@Test
+	public void testDelete()
 	{
 		CustomList l = new CustomList();
 		City c = new City("Cal", "AB");
@@ -23,4 +24,16 @@ public class CustomListTest
 
 		assertFalse(l.hasCity(c));
 	}
+
+	/*
+	@Test
+	public void testCount()
+	{
+		CustomList l = new CustomList();
+		City c = new City("Cal", "AB");
+		l.addCity(c);
+		City j = new City("Jul", "AB");
+		l.addCity(c);
+	}
+	 */
 }

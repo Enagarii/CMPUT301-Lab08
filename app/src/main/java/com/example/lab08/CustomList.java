@@ -25,7 +25,7 @@ public class CustomList {
 
     public void delete(City city)
     {
-        /*
+
         if (hasCity(city))
         {
             cities.remove(city);
@@ -34,7 +34,7 @@ public class CustomList {
         {
             throw new IllegalArgumentException();
         }
-        */
+
     }
 
     public void countCities()
