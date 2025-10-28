@@ -21,4 +21,27 @@ public class CustomList {
     {
         return cities.contains(city);
     }
+
+
+    public void delete(City city)
+    {
+        /*
+        if (hasCity(city))
+        {
+            cities.remove(city);
+        }
+        else
+        {
+            throw new IllegalArgumentException();
+        }
+        */
+    }
+
+    public void countCities()
+    {
+        //return cities.size();
+    }
+
+
+
 }
