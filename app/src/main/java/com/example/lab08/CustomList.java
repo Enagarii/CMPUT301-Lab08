@@ -14,7 +14,7 @@ public class CustomList {
         cities.add(city);
     }
 
-    
+    // Added a test comment
 
     // Will be implemented later using TDD (leave blank for now)
     // public boolean hasCity(City city) { ... }
