@@ -32,6 +32,9 @@ public class CustomListTest
 		CustomList l = new CustomList();
 		City c = new City("Cal", "AB");
 		l.addCity(c);
+
+		assertEquals(1, l.countCities());
+
 		City j = new City("Jul", "AB");
 		l.addCity(c);
 
